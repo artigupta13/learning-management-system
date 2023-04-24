@@ -1,0 +1,27 @@
+{
+    "preset": "ts-jest",
+    "test-environment": "node",
+    "testRegex": "\\.(test)\\.ts$",
+    "collectCoverage": true,
+    "coverageDirectory": "<rootDir>/coverage",
+    "coveragePathIgnorePatterns": [
+        "<rootDir>/node_modules",
+        "<rootDir>/test",
+        "<rootDir>/src/geektrust.ts"
+    ],
+    "coverageReporters":[
+        "text",
+        "text-summary"
+    ],
+    "coverageThreshold": {
+        "global":{
+            "statements": 0,
+            "brances": 0,
+            "funcs":0,  
+            "lines": 0
+        }
+    },
+    "moduleDirectories": [
+        "<rootDir>/node_modules"
+    ]
+}

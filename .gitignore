@@ -1,0 +1,5 @@
+node_modules
+dist
+run.sh
+run.bat
+.DS_Store

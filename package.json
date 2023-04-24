@@ -1,0 +1,30 @@
+{
+  "name": "learning-management-system",
+  "version": "1.0.0",
+  "description": "learning-management-system",
+  "main": "src/geektrust.ts",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "test": "npm run lint && jest",
+    "postinstall": "tsc",
+    "postci": "tsc",
+    "build": "tsc",
+    "start": "ts-node dist/geektrust.js sample_input/input1.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "@types/node": "^18.15.13",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
